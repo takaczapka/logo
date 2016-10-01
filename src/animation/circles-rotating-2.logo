@@ -1,11 +1,11 @@
 TO draw_frame
   pu lt 90 fd 50 rt 90 pd
-  arc 360 110
-  arc 360 50
+  circle 110
+  circle 50
   pu rt 90 fd 10 lt 90 pd
-  arc 360 40
+  circle 40
   pu lt 90 fd 90 pd
-  arc 360 30
+  circle 30
 END
 
 TO move_position :iteration
