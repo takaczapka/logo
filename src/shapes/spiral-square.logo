@@ -1,2 +1,4 @@
 cs
-for [i 10 400 10] [fd :i rt 90]
+repeat 200 [ 
+  fd repcount * 2 rt 90 
+]
