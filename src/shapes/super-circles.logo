@@ -1,0 +1,7 @@
+cs
+for [ i 0 360 6] [
+  pu
+   setxy 100 * cos(:i) 100 * sin(:i)
+  pd
+  arc 360 100
+]
